@@ -4,10 +4,11 @@ R script `data/data-wrang.R` reads raw data taken from [Here](https://github.com
 `app.jl` is a [Matte.jl](https://github.com/angusmoore/Matte.jl/) app.  
 
 ```julia
-julia>using Matte
+
 julia>cd("covid-dash")
 (v1.3) pkg> activate .
 Activating environment at `~/covid-dash/Project.toml`
+julia> using Matte
 julia> using Revise
 julia> includet("app.jl")
 julia> run_app(CovidDash)
