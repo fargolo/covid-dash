@@ -16,6 +16,7 @@ remote: Enumerating objects: 16, done.
 julia>cd("covid-dash")
 (v1.3) pkg> activate .
 Activating environment at `~/covid-dash/Project.toml`
+(covid-dash)pkg> instantiate 
 julia> using Matte
 julia> using Revise
 julia> includet("app.jl")
