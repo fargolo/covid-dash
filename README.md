@@ -31,5 +31,7 @@ Web Server running at http://127.0.0.1:8000
 ![Dashboard should run on local server](images/printscreen.png)  
 
 # To do 
-*  Run regression with parameters defined after countries.  
+*  Hierarchical exponential regression is ilustrated with R in `/analysis/multilevel-exp.R`. Couln't make it work with `MixedModels.jl` nor with `Turing.jl`.  
 *  Rank countries according to growth rate.  
+
+# Roadmap  
