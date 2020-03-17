@@ -14,6 +14,9 @@ remote: Enumerating objects: 16, done.
 (...)
 ~$julia
 julia>cd("covid-dash")
+```
+Enter the Pkg REPL by pressing "]":
+```julia
 (v1.3) pkg> activate .
 Activating environment at `~/covid-dash/Project.toml`
 (covid-dash)pkg> instantiate 
