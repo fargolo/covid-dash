@@ -1,4 +1,5 @@
 library(magrittr)
+library(lubridate)
 library(tidyr)
 library(dplyr)
 #setwd("~/covid-dash/data")
@@ -11,6 +12,14 @@ covid_long$date <- substring(covid_long$var, 2) %>%
 
 covid_long <- covid_long %>% select(Country.Region,Lat,Long,date,val)
 names(covid_long)[1]<- "Country"
-write.csv(covid_long,"covid-long16Mar.csv")
 
+covid_long$date <- as.Date(covid_long$date)
+covid_long_d <- covid_long %>%
+  filter(val != 0) %>%
+  group_by(Country) %>%
+  mutate(diff = date - min(date)) %>%
+  ungroup()
 
+covid_long_d$Countr_id <- dplyr::id(covid_long_d[,"Country"])
+
+write.csv(covid_long_d,"../data/covid-long17Mar.csv")
