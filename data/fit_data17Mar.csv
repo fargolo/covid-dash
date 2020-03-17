@@ -1,0 +1,12 @@
+"","grpvar","term","grp","condval","condsd"
+"1","Country","(Intercept)","Argentina",-0.0906573004995548,0.145290158077805
+"2","Country","(Intercept)","Bolivia",0.291251671112122,0.216460638280123
+"3","Country","(Intercept)","Brazil",-0.740734592063254,0.122264953093422
+"4","Country","(Intercept)","Chile",0.0534670252872249,0.145290158077805
+"5","Country","(Intercept)","Colombia",-0.253995253131757,0.163057560153929
+"6","Country","(Intercept)","Ecuador",0.0876203866155897,0.136233945354439
+"7","Country","(Intercept)","Paraguay",-0.332068617154294,0.179305631226236
+"8","Country","(Intercept)","Peru",0.377282622019225,0.163057560153929
+"9","Country","(Intercept)","Suriname",-0.337610162182905,0.293851075138868
+"10","Country","(Intercept)","Uruguay",0.441374960439841,0.293851075138868
+"11","Country","(Intercept)","Venezuela",0.504069259557725,0.293851075138868

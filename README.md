@@ -28,10 +28,5 @@ Web Sockets server running at 127.0.0.1:8001
 Web Server starting at http://127.0.0.1:8000 
 Web Server running at http://127.0.0.1:8000 
 ```
-![Dashboard should run on local server](images/printscreen.png)  
+![](images/demoscreen.gif)  
 
-# To do 
-*  Hierarchical exponential regression is ilustrated with R in `/analysis/multilevel-exp.R`. Couln't make it work with `MixedModels.jl` nor with `Turing.jl`.  
-*  Rank countries according to growth rate.  
-
-# Roadmap  
